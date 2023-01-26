@@ -33,7 +33,7 @@ def load_lottieurl(url):
 def local_css(file_name):
     with open(file_name)as f:
       st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
-local_css("C:/Users/admin\Desktop/WEBSITE/style/style.css.txt")
+local_css("C:/Users/admin/Desktop/WEBSITE/style/style.css.txt")
 #-----load assets----
 lottie_coding=load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_1LhsaB.json")
 img_contact_form=Image.open("C:/Users/admin/Desktop/WEBSITE/images/didaimg2.png")
